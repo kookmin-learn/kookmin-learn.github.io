@@ -9,7 +9,7 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
+description: 국민대학교 소프트웨어학부 교육보조 블로그
 author:
   name: Junseong Kim
   email: codertimo@gmail.com

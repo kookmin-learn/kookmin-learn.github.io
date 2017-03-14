@@ -10,7 +10,7 @@ title: Kookmin-Learn
 email: codertimo@gmail.com
 description: > #국민대학교 소프트웨어 학부 17학번 교육 보충자료들을 포스팅하는 블로그입니다.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://codertimo.github.io" # the base hostname & protocol for your site
+url: "https://codertimo.github.io" # the base hostname & protocol for your site
 twitter_username: none
 github_username:  codertimo
 

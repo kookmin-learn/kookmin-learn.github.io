@@ -1,16 +1,67 @@
-# jekyll-simple
+# Edition
 
-## simple
-simple is a theme designed for blogger using static site generator like jekyll, Hexo etc.
+Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
+Start documenting your product, application, service or website with this configurable theme.
 
-Especially for those who writes in both Chinese and English. The font-type setting looks really good when writers use Chinese mixed with English.
+![Edition template screenshot](images/_screenshot.png)
 
-Supposedly, this could work with Japanese as well but never had a chance to try.
+Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
 
-## Story behind this theme
+Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
 
-It has been long that using font with Chinese in web was a tedious and time-consuming work. It would be almost impossible to make different OS or devices to look the same.
+## Features
 
-iOS 9 has pulished some new fonts in Chinese and I decided to make one theme that looks good on iOS devices, at the same time, making it acceptable on computers using other fonts.
+* Two column layout
+* Full text search
+* Pre-styled components
+* Auto-generated navigation based on category
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Change log
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
 
-So mobile goes first, then the macOS.
+## Setup
+
+1. Add your site and author details in `_config.yml`.
+2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+
+## Develop
+
+Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+
+Install the dependencies with [Bundler](http://bundler.io/):
+
+~~~bash
+$ bundle install
+~~~
+
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
+
+~~~bash
+$ bundle exec jekyll serve
+~~~
+
+## Editing
+
+Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
+
+### Documentation pages
+
+* Add, update or remove a documentation page in the *Documentation* collection.
+* Change the category of a documentation page to move it to another section in the navigation.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+
+### Change log
+
+* Add, update or remove change log entries from your posts.
+* Tag entries as minor or major in the front matter.
+
+### Search
+
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+
+### Navigation
+
+* Change `site.show_full_navigation` to control all or only the current navigation group being open.

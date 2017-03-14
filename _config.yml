@@ -1,28 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# ----
+# Site
 
-# Site settings
-title: Kookmin-Learn
-email: codertimo@gmail.com
-description: > #국민대학교 소프트웨어 학부 17학번 교육 보충자료들을 포스팅하는 블로그입니다.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://codertimo.github.io" # the base hostname & protocol for your site
-twitter_username: none
-github_username:  codertimo
+title: 국민-Learn
+url: "https://codertimo.github.io"
+baseurl:
+google_analytics_key:
+show_full_navigation: true
 
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Product documentation template for Jekyll.
+author:
+  name: Junseong Kim
+  email: codertimo@gmail.com
+  twitter: # twitter username without the @ symbol
+social:
+  name: codertimo-github
+  links:
+    - https://github.com/codertimo
 
-# Third-party services
-# just leave someone empty to disable it
-# google_analytics:
-disqus_shortname:
+# -----
+# Build
 
-# used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+collections:
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major

@@ -1,0 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Kookmin-Learn
+email: codertimo@gmail.com
+description: > #국민대학교 소프트웨어 학부 17학번 교육 보충자료들을 포스팅하는 블로그입니다.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://wildflame.me" # the base hostname & protocol for your site
+twitter_username: none
+github_username:  codertimo
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics:
+disqus_shortname:
+
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->

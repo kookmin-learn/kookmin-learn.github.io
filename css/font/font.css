@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 300;
+  src: url(./KoPubDotum-Light.eot);
+}
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./KoPubDotum-Regular.eot);
+}
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./KoPubDotum-Bold.eot);
+}

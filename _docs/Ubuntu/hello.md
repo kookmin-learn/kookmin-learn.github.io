@@ -1,6 +1,7 @@
 ---
 title: Welcome to Ubuntu
-category: Ubuntu
+categories:
+- Ubuntu
 layout: default
 comments: true
 order: 1

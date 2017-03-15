@@ -1,7 +1,6 @@
 ---
 title: Welcome to Raspberry Pi
-categories:
-- Raspberry Pi
+category : Raspberry Pi
 order: 1
 layout: default
 comments: true

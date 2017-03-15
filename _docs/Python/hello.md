@@ -1,6 +1,7 @@
 ---
 title: Welcome to 파이썬
-category: Python
+categories:
+- Python
 order: 1
 layout: default
 comments: true

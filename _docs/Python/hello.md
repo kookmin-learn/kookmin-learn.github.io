@@ -1,8 +1,10 @@
 ---
 title: Welcome to 파이썬
-category: Python
+categories:
+- Python
 order: 1
 ---
+
 작성자 17학번 김준성 / 2017-3-14일 업데이트
 ## 소개
 

@@ -1,6 +1,7 @@
 ---
 title: Welcome to Raspberry Pi
-category: Raspberry Pi
+categories:
+- Raspberry Pi
 order: 1
 ---
 

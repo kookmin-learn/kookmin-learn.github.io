@@ -1,73 +1,61 @@
-# ----
-# Site
-
+---
 title: 국민-Learn
-url: "https://codertimo.github.io"
-baseurl:
+timezone: UTC
+collections:
+  docs:
+    title: Documentation
+    output: true
+    permalink: "/:path/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: docs
+  values:
+    seo:
+      type: Article
+    _comments:
+      category: Group navigation links with this field
+      order: Used to sort links in the navigation
+- scope:
+    path: ''
+    type: posts
+  values:
+    _comments:
+      type: Marks the impact of this release
+url: https://codertimo.github.io
+baseurl: 
 google_analytics_key: UA-93697929-1
 show_full_navigation: true
-
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: "/siteicon.png"
 description: 국민대학교 소프트웨어학부 교육보조 블로그
 author:
   name: Junseong Kim
   email: codertimo@gmail.com
-  twitter: # twitter username without the @ symbol
+  twitter: 
 social:
   name: codertimo-github
   links:
-    - https://github.com/codertimo
-
-# -----
-# Build
-
+  - https://github.com/codertimo
 permalink: pretty
-
 gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-
-collections:
-  docs:
-    title: Documentation
-    permalink: /:path/
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: default
-  -
-    scope:
-      path: ""
-      type: "docs"
-    values:
-      seo:
-        type: Article
-      _comments:
-        category: Group navigation links with this field
-        order: Used to sort links in the navigation
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      _comments:
-        type: Marks the impact of this release
-
-# -----------
-# CloudCannon
-
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENCE
 types:
-  - minor
-  - major
+- minor
+- major

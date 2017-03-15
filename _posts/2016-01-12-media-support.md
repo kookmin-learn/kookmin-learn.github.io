@@ -1,5 +1,6 @@
 ---
 title: Media support
+date: 2016-01-12 00:00:00 Z
 type: major
 ---
 

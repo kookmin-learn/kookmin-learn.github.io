@@ -1,7 +1,7 @@
 ---
 title: 비트 연산
 category : Python
-order: 2
+order: 6
 layout: default
 comments: true
 ---

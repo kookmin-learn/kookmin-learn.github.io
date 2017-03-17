@@ -1,7 +1,7 @@
 ---
 title: 데이터 타입
 category : Python
-order: 3
+order: 5
 layout: default
 comments: true
 ---
@@ -25,7 +25,6 @@ club_name = "소융메플길드"  #club_name은 문자열
 - Int (정수)
 - Float (소수)
 - String (문자열)
-- Char (문자 1글자)
 - Boolean (참,거짓)
 
 ## Int : 정수 타입

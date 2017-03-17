@@ -14,7 +14,6 @@ title: Welcome
 본 문서에 기여하고자 하는 학생분들, 조교님들, 교수님들 누구든지 환영하며 문서작성 및 게시방법은 아래 Contribution 항목을 참조해주시길 바랍니다.
 
 - 소프트웨어 17학번 김준성(codertimo@gmail.com)
-- 소프트웨어 17학번 김도현(nero.union12@gmail.com)
 
 ## 국민-learn 참여하기
 

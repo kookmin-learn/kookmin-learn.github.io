@@ -33,15 +33,15 @@ defaults:
     _comments:
       type: Marks the impact of this release
 url: https://codertimo.github.io
-baseurl: 
+baseurl:
 google_analytics_key: UA-93697929-1
 show_full_navigation: true
 logo: "/siteicon.png"
-description: 국민대학교 소프트웨어학부 교육보조 블로그
+description: 누구나 쉽게 코딩을 배울 수 있는 공간
 author:
   name: Junseong Kim
   email: codertimo@gmail.com
-  twitter: 
+  twitter:
 social:
   name: codertimo-github
   links:

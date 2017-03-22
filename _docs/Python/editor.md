@@ -25,6 +25,8 @@ comments: true
 
 터미널로 하는 파이썬이 조금 지겨워서 조금 발전된 Python IDE. 뭔가 초보자한테는 용이하지만, 나중에 가면 정말 쓰고 싶지 않아지는 IDE 비추!!!
 
+**idle** 사용방법 : [idle 사용방법 wiki](https://wikidocs.net/1154)
+
 ---
 
 ## 방법 3 : Atom

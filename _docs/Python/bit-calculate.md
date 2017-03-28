@@ -1,5 +1,5 @@
 ---
-title: 비트 연산
+title: 3. 비트 연산
 category : Python
 order: 6
 layout: default

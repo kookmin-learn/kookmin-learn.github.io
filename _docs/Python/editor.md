@@ -1,68 +1,58 @@
 ---
-title: 파이썬 코드를 작성하는 방법
+title: 파이썬 에디터 설치하기
 category : Python
 order: 3
 layout: default
 comments: true
 ---
+(윈도우를 사용하는 학생이라면 파이썬이 설치되지 않았을 수 도 있다. 이전 문서인 파이썬 설치하기를 보고 오자)
 
-#### !!!!이 포스트는 python이 설치되어 있다는 전제하에 실행해야 합니다.!!!!
----
+## 아톰이란?
 
-## 방법 1 : 터미널
-**추천도 ★☆☆☆☆ 어려움 ★☆☆☆☆ 편함 ★☆☆☆☆**
+교수님들은 보통 idle3를 사용하시는데 이 강좌에서는 **atom이라는 에디터를 사용할 예정이다**.
 
-![Imgur](http://i.imgur.com/4ul3I64.png)
+아래에 atom의 스크린샷이 나와있는데, 매우 이쁘고 간결하고 강력한 코드 에디터이다. 코잘남, 코잘녀가 되기 위한 첫걸음이기도 하다
 
-처음에 파이썬을 배우거나 정말 짧은 코드를 작성할 때는 편하지만, 나중에 긴 코드를 작성하거나 과제를 하거나 코드를 저장하는 것은 불가능 하다.
+![Imgur](http://i.imgur.com/2JW4OzR.png)
 
----
 
-## 방법 2: idle
-**추천도 ★★★☆☆ 어려움 ★★☆☆☆ 편함 ★☆☆☆☆**
+### 설치 1단계 : atom 다운로드 & 설치
 
-![Imgur](http://i.imgur.com/RoOiddi.png)
+![Imgur](http://i.imgur.com/gSxQApK.png)
 
-터미널로 하는 파이썬이 조금 지겨워서 조금 발전된 Python IDE. 뭔가 초보자한테는 용이하지만, 나중에 가면 정말 쓰고 싶지 않아지는 IDE 비추!!!
+링크로 가서 아톰을 다운로드 받는다 그리고 설치한다 [https://atom.io](https://atom.io)
 
-**idle** 사용방법 : [idle 사용방법 wiki](https://wikidocs.net/1154)
+우분투는 .deb파일을 다운받고, 파일을 눌러서 실행하면 설치된다.
 
----
 
-## 방법 3 : Atom
-**추천도 ★★★★☆ 어려움 ★★★☆☆ 편함 ★★★☆☆**
+### 설치 2단계 : atom 실행하기
 
-![Imgur](http://i.imgur.com/az3yvEj.png)
-이쁘고 편하고 아주 조은 코드 편집기입니다. 추천하나 박고 갑니다.
+윈도우와 맥은 실행하는것이 어렵지 않을 것이다.
 
-#### 3-1 : 아톰을 다운로드 한다
-아톰 홈페이지 : [https://atom.io/](https://atom.io/) <- 가서 다운로드
+우분투는 프로그램 검색창에서 atom을 검색하면 쉽게 실행할 수 있다.
 
-#### 3-2 : 아톰에서 파이썬을 컴파일하기 위해서 Scirpt패키지를 깐다
-모르겠으니 유튜브를 보자 [생활코딩 atom script 설치 링크](https://opentutorials.org/module/1579/9647)
+### 설치 3단계 : script 설치하기
+파이썬을 쉽게 실행하려면 script라는 플러그인(패키지)이 필요하다. 그래서 설치를 할건데 매우 쉽다.
+맨위에 보면 여러가지 메뉴들이 있다. 아래의 절차를 따라해보자 :)
 
-#### 3-3 :
-유튜브에서 봤던것처럼 실행하면 설치가 됨
+1. 윈도우 : 상단 File 메뉴 -> Settings -> Install
+2. 맥 : 상단 Atom 메뉴 -> Settings -> Install
+3. 우분투 : 상단 Edit 메뉴 -> Preferences -> Install
 
----
+install을 누르면 설치가 되는데 시간이 조금 걸리는데 인내심을 갖고 기다리다보면 설치가 다 될 것이다. 설치가 다 되면 Setting창을 닫아주자.
 
-## 방법 4 : Pycharm
-**추천도 ★★★★★ 어려움 ★★★☆☆ 편함 ★★★★★**
+![Imgur](http://i.imgur.com/jMELoMM.png)
 
-![Imgur](http://i.imgur.com/qNiMDO3.png)
-python 개발자의 필수요소 Pycharm, 리눅스에서 설치하는게 조금 복잡하고 사용법을 조금 배워야 하지만, 한번 배우고 나면 평생 편하다는 절대강자. 극추천!!!!!
-#### 절차 1. Jetbrain(파이참 만든 회사) 학생 인증하기
+### 설치 4단계 : 사용해보기
 
-[파이참 학생 인증하는 방법](http://m.blog.naver.com/pcy8888/220581961652)
+이제 실제로 파이썬 파일을 만들고, 파이썬 파일을 실행시켜 보도록하자. 앗 script가 잘 설치되었나 확인도 해볼겸해서 ㅎ
 
-#### 절차 2. Pycharm 설치하는 방법 & 사용법
+1. 상단 File 메뉴 -> new File -> test.py
+2. text.py에 ```print("Hello Atom")``` 작성하기
+3. 저장하기(cntl-s)를 누릅니다.
+4. 실행하기 (윈도우/우분투 shift-ctrl-b) (맥 cmd-i) 단축키 누르기
 
-##### 윈도우 파이참 설치
-[파이참 설치&사용방법 유튜브 10분짜리](https://youtu.be/ZOMo4bZnl0g?t=1m53s)
-우분투
+![Imgur](http://i.imgur.com/0j4KraA.png)
+위와 같은 그림처럼 hello atom이 출력된다면 성공!!! :)
 
-##### 우분투 파이참 설치
-**(참고) 우분투 명령어에 대한 강좌듣는 것을 추천함  [생활코딩 우분투 명령어](https://www.youtube.com/watch?v=YpylZlEbXw0&index=11&list=PL95D210F993B6A56A)**
-1. 터미널을 열고 cd 명령어를 이용해서 다운로드된 폴더로 이동한다
-2. [우분투 파이참 설치방법](http://blog.uthline.net/71)
-3. 사용방법은 위에 윈도우 사용법 유튜브를 참조하면 된다.
+앞으로 파이썬 코드를 작성하고 실행시킬 때, 이렇게 사용하면 된다.

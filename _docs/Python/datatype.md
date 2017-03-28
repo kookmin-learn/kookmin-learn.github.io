@@ -1,5 +1,5 @@
 ---
-title: 데이터 타입
+title: 2. 데이터 타입
 category : Python
 order: 5
 layout: default

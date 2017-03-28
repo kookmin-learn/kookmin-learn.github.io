@@ -1,5 +1,5 @@
 ---
-title: 기본기
+title: 1. 기본기 (여기서부터 정독!)
 category : Python
 order: 4
 layout: default

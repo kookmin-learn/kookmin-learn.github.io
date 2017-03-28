@@ -1,5 +1,5 @@
 ---
-title: 리스트
+title: 6. 리스트
 category : Python
 order: 9
 layout: default
@@ -30,7 +30,7 @@ print(students)
 
 ```python
 students_id =[20171603, 20171602, 20171503, ..., 20171677]
-print(students_id) 
+print(students_id)
 ```
 물론 이렇게 숫자들도 값으로 들어갈 수 있다.
 

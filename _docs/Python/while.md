@@ -1,5 +1,5 @@
 ---
-title: 반복분 2(While문)
+title: 7-2. 반복분 2(While문)
 category : Python
 order: 11
 layout: default
@@ -7,6 +7,8 @@ comments: true
 ---
 
 ## while 반복문
+
+저보다 설명을 잘해둔 [(링크)while문에 대해서 알아보자](https://wikidocs.net/21) 이 링크를 참조해주세요 :)
 
 for문에서는 정해진 리스트에서 하나하나 꺼내왔다면, while문은 무한정 반복하는 **무한반복문** 이다.
 

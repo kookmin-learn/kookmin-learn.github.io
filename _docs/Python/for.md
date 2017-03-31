@@ -120,16 +120,3 @@ for number in range(10);
 
 #결과 : **********
 ```
-
-```python
-# 예제 4: 구구단 9x9
-for number in range(1,10):
-  for subnumber in range(1,10):
-    print(number,"*",subnumber,"=",number*subnumber)
-
-#결과
-# 1*1=1
-# 1*2=2
-# 1*3=3
-#...
-```

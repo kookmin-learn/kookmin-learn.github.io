@@ -4,9 +4,7 @@ category : Ubuntu
 order: 2
 layout: default
 comment: true
----
-작성자:신민욱 금요일, 24. 3월 2017 
-업데이트:월요일, 03. 4월 2017
+---  
 
 ## 터미널을 켜봅시다.
 ![](http://i.imgur.com/EjSKlYd.png)

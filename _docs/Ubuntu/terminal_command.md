@@ -21,6 +21,9 @@ E: 관리 디렉터리를 (/var/lib/dpkg/) 잠글 수 없습니다. 루트 사�
 <code>sudo</code>를 명령어 앞에 붙여 본인이 루트사용자가 맞다고 인증을 하면 됩니다.
 
 sudo명령어는 substitute user do의 줄임말로써 다른 사용자의 권한을 가져온다는 의미를 가지며, 대부분은 파일 접근이 쉬운 관리자(루트)권한을 가져올때 쓰인답니다.
+
+>**주의!** : 관리자 권한을 획득할 sudo 명령어는 조심히 사용해야 합니다. rm -rf[^2]처럼 위험한 명령어도 있거든요..!
+
 ## 프로그램 실행
 보통 <code>apt</code>로 설치한 프로그램은 기본적으로 "해당 프로그램 이름"을 입력하면 실행됩니다.
 ```bash
@@ -28,14 +31,16 @@ gedit
 ```
 약간 응용해서.. 관리자 권한으로 특정 경로에서 특정 프로그램을 이용해 파일을 열어봅시다.
 ```bash
-sudo gedit (경로)/(프로그램)
+sudo gedit (경로)/(파일)
 ```
-**주의점 : 관리자 권한을 획득할 sudo 명령어는 조심히 사용해야 합니다. rm -rf[^2]처럼 위험한 명령어도 있거든요..!**
+>ex) <code>sudo gedit 바탕화면/예제.txt</code>
 ## 프로그램 설치
 만약 프로그램이 없다면 <code>apt install</code>을 써봅시다.
 ```bash
 sudo apt install <설치프로그램>
 ```
+>깃이라는 프로그램을 설치합니다.
+ex) <code>sudo apt install git </code>
 ### 만약 이런 오류가 뜬다면...
 ```bash
  ThinkPad@ThinkPad-T460 ~  sudo apt install kakaotalk
@@ -54,6 +59,9 @@ ppa란, 우분투에서 기본으로 선별한 프로그램을 제외한 나머�
 ```bash
 sudo add-apt-repository '저장소 이름'
 ```
+>와인이라는 프로그램의 ppa는 이런식으로 추가할 수 있습니다. 
+ex)<code>sudo add-apt-repository ppa:ubuntu-wine/ppa</code>
+
 ## 프로그램 업데이트
 ```bash
 sudo apt update; sudo apt upgrade
@@ -64,6 +72,9 @@ sudo apt update; sudo apt upgrade
 ```bash
 sudo apt remove "패키지"
 ```
+>깃이라는 프로그램을 삭제합니다. 
+ex) <code>sudo apt remove git </code>
+
 ## 폴더 안 파일 목록 조회
 ```bash
 ls -al
@@ -73,7 +84,7 @@ ls -al
 ```bash
 cd (작업 경로)
 ```
-상위 폴더로 가려면 <code>../</code>!
+상위 폴더로 가려면 <code>../</code>! ex)<code>cd ../</code>
 ## 폴더 만들고 지우기
 ```bash
 mkdir (만들 폴더명)
@@ -85,6 +96,9 @@ rm -r (지울 폴더명)
 ```bash
 cp (옮길 파일) (도착 위치)
 ```
+>mp3.mp3 파일을 music 폴더에 넣습니다.
+ex) <code>cp mp3.mp3 music/ </code>
+
 이동할 때 : 
 ```bash
 mv (옮길 파일) (도착 위치)
@@ -93,7 +107,10 @@ mv (옮길 파일) (도착 위치)
 
 ## 파일 바로가기 만들기
 ```bash
-ln -s (파일) (바로가기 이름)ㅋ
+ln -s (파일) (바로가기 이름)
 ```
+>program폴더의 file파일을 바탕화면에 link라는 이름으로 바로가기를 만들어줍니다.
+ex) <code>ln -s program/file 바탕화면/link</code>
+
 [^1]: 파일의 읽기(r),쓰기(w),실행(x) 접근을 관리하는 체계,
 [^2]:해당 드라이브의 모든 파일과 폴더를 지우고 사라지는 명령어

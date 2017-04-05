@@ -27,7 +27,7 @@ comment: true
 * 그 외 다양한 커스텀 장치
 #### 4. 리눅스 커널을 쓰는 운영체제는 많다.
 ![](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg) 
->우리도 한번 만들어보자!
+>이렇게 운영체제가 많은데, 우리도 한번 만들어볼 수 있지 않을까?
 #### 번외. 리눅스에는 C로 개발했다는데 C를 알아야 되나요?
 잘 몰라도 됩니다.
 >우리는 리눅스를 쓰면서 개발하는 거지, 리눅스를 개발하는 건 아니지 않습니까?
